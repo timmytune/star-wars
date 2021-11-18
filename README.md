@@ -3,6 +3,7 @@
 API for getting star wars movies, characters and also to add comments to the movies
 
 for Postman collection click [here](https://documenter.getpostman.com/view/3507920/UVCBC5Ng)
+for live test (cloud run) [here](https://star-wars-jdcw3f4pnq-uc.a.run.app)
 
 ## Stack
 
