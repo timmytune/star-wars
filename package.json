@@ -1,0 +1,41 @@
+{
+  "name": "star-wars-api",
+  "version": "1.0.0",
+  "description": "Starting template for Node Express API with Typescript",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "jest --coverage",
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "star-wars"
+  ],
+  "author": "Adedoyin Yinka",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.11",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^14.14.37",
+    "@types/validator": "^13.6.6",
+    "jest": "^27.3.1",
+    "sequelize-cli": "^6.3.0",
+    "ts-jest": "^27.0.7",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.4.4",
+    "@types/supertest": "^2.0.11",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.9.0"
+
+  }
+}
