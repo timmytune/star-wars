@@ -400,8 +400,6 @@ class StarwarsSevice {
             return ret
         }  
     }
-
-
 }
 
 let swapi_base: string = env.SWAPI_BASE ? env.SWAPI_BASE : "https://swapi.dev/api"
